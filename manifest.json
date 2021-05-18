@@ -1,0 +1,12 @@
+{
+  "name": "Timetek to Timesheet Exporter Plus",
+  "short_name": "T2TEP",
+  "description": "Export your Timetek Report data to a Timesheet-compatible format",
+  "dir": "auto",
+  "lang": "en-US",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "/",
+  "background_color": "#fff",
+  "theme_color": "#33ff66"
+}
