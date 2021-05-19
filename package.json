@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack serve",
-    "build": "export NODE_ENV=production || set NODE_ENV=production&& webpack",
+    "build": "webpack --node-env production --progress --color",
     "serve": "sirv dist --cors --single --port 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
