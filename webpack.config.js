@@ -12,7 +12,7 @@ console.log(`Environment: ${process.env.NODE_ENV}`)
 
 module.exports = {
   mode: devMode ? 'development' : 'production',
-  entry: ['./src/index.js','./src/styles.css'],
+  entry: ['./src/index.js', './src/styles.css'],
   plugins: [
     new FaviconsWebpackPlugin({
       manifest: './manifest.json',
