@@ -15,8 +15,23 @@ module.exports = {
   entry: ['./src/index.js','./src/styles.css'],
   plugins: [
     new FaviconsWebpackPlugin({
-      mode: 'webapp',
-      manifest: './manifest.json'
+      manifest: './manifest.json',
+      favicons: {
+        icons: {
+          "android": [
+            "android-chrome-192x192.png",
+            "android-chrome-512x512.png",
+          ],
+          "appleIcon": [
+            "apple-touch-icon-180x180.png",
+          ],
+          'appleStartup': false,
+          'coast': false,
+          'firefox': false,
+          'windows': false,
+          'yandex': false,
+        }
+      },
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
