@@ -33,10 +33,7 @@ module.exports = {
         }
       },
     }),
-    new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css"
-    }),
+    new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin(),
     new HTMLInlineCSSWebpackPlugin(),
   ],
