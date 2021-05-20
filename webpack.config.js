@@ -16,6 +16,7 @@ module.exports = {
   plugins: [
     new FaviconsWebpackPlugin({
       manifest: './manifest.json',
+      logo: './logo.svg',
     }),
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin(),
