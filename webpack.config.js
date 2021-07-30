@@ -31,6 +31,12 @@ module.exports = {
           'postcss-loader',
         ],
       },
+      {
+        test: /\.(woff|woff2)$/,
+        use: {
+          loader: 'url-loader',
+        },
+      },
     ],
   },
   optimization: {
