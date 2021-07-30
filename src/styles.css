@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.t2tep {
-  &__label {
-    @apply text-2xl font-semibold tracking-tight lowercase cursor-pointer;
+.font {
+  &-lato {
+    font-family: Lato, sans-serif;
   }
-
-  &__textbox {
-    @apply appearance-none font-mono text-xl p-6 resize-none focus:outline-none focus:ring ring-yellow-500 ring-opacity-50 w-full h-full select-text;
-
-    &--left {
-      @apply rounded-r-3xl overflow-hidden;
-    }
-
-    &--right {
-      @apply rounded-l-3xl;
-    }
+  &-firamono {
+    font-family: Fira Mono, monospace;
+  }
+  &-lobstertwo {
+    font-family: Lobster Two, sans-serif;
   }
 }
